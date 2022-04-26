@@ -26,7 +26,7 @@ const Post = ({ urlHere, postId, posts }) => {
             const data = posts.filter((post) => post.id == postId)
 
             const handleURL = () => {
-                if (urlHere.match.params === 'post' && (data[0]))
+                if ((data[0]))
                 {
                     console.log(urlHere)
                     return(<Found post={data[0]} />)
